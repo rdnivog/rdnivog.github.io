@@ -60,8 +60,8 @@ a:active
 
 .about-me
 {
-    border-left: 10pt azure;
-    border-right: 10pt azure;
+    /* border-left: 10pt azure;
+    border-right: 10pt azure; */
     /* display: flex; flex-direction: row;  */
     text-align: justify;
     margin-top: 2vw; margin-bottom: 2vw;
