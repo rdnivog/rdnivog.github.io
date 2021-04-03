@@ -147,6 +147,18 @@ a:active
         font-size: 3vw;
     }
 
+    .about-me
+{
+    /* border-left: 10pt azure;
+    border-right: 10pt azure; */
+    /* display: flex; flex-direction: row;  */
+    text-align: justify;
+    margin-top: 2vw; margin-bottom: 2vw;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    font-size: 3vw;
+}
+
     .photo img 
     {
         height: 25vw;
