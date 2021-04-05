@@ -14,10 +14,19 @@ body
 }
 
 /* hyperlinks */
-/* hyperlinks */
 a
 {
     color: maroon; text-decoration: none; 
+}
+
+a:hover
+{
+    color:crimson; 
+}
+
+a:active
+{ 
+    color: black;
 }
 
 hr {
@@ -29,15 +38,7 @@ hr {
     border: 0 none;
 
   }
-a:hover
-{
-    color:crimson; 
-}
 
-a:active
-{ 
-    color: black;
-}
 
 /* Heading */
 .heading-container
@@ -47,7 +48,6 @@ a:active
     background-color:ivory; 
     display: flex; justify-content: space-evenly; flex-direction: column; margin-top: 2vw; margin-bottom: 1vw;
     position: sticky;    
-    /* position: fixed; Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 100; 
@@ -69,42 +69,30 @@ a:active
     flex: 1; display: inline; margin: auto; text-align: center;
 }
 
-.anchor { padding-top: 120px; }
+.anchor { padding-top: 130px; }
 
 /* About-me */
 
-.about-me
+.about-me-title
 {
-    /* border-left: 10pt azure;
-    border-right: 10pt azure; */
-    /* display: flex; flex-direction: row;  */
-    text-align: justify;
-    margin-top: 2vw; margin-bottom: 2vw;
-    /* margin-top: 150px; */
-    /* line-height: 30px; */
+    /* display: flex; flex-direction: row; */
     margin-right: 150px;
     margin-left: 150px;
-    /* font-size: x-large; */
+    z-index: 1; 
+}
+
+.about-me
+{
+    /* display: flex; flex-direction: row; */
+    text-align: justify;
+    margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 150px;
+    margin-left: 150px;
     z-index: 1; 
 }
 
 
 /* Publications */
-.scholar-container
-{
-    display: flex; flex-direction: column; margin-right: 150px;
-    margin-left: 80px;
-    margin-right: 150px;
-    margin-left: 150px;
-
-}
-
-.scholar 
-{
-    flex: 1; margin-left: 2vw; margin-right: 150px;
-    margin-left: 80px;
-}
-
 .Publications
 {
     margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
@@ -159,31 +147,14 @@ a:active
 
     .about-me
     {
-    
-        display: flex; flex-direction: row;
-            /* border-left: 10pt azure;
-    border-right: 10pt azure; */
-    /* display: flex; flex-direction: row;  */
-    /* text-align: center; */
     margin-top: 2vw; margin-bottom: 2vw;
     margin-right: 10px;
     margin-left: 10px;
-    /* font-size: 3vw; */
-    }
-
-    .photo img 
-    {
-        height: 25vw;
     }
 
     .heading-container 
     {
         display: flex; flex-direction: column;
-    }
-
-    .scholar-container 
-    {
-        flex-direction: column;
     }
 }
 
@@ -197,30 +168,14 @@ a:active
 
     .about-me
     {
-        display: flex; flex-direction: row;
-        /* border-left: 10pt azure;
-    border-right: 10pt azure; */
-    /* display: flex; flex-direction: row;  */
-    /* text-align: center; */
     margin-top: 2vw; margin-bottom: 2vw;
     margin-right: 10px;
     margin-left: 10px;
-    /* font-size: 3vw; */
-    }
-
-    .photo img 
-    {
-        height: 25vw;
     }
 
     .heading-container 
     {
         display: flex; flex-direction: column;
-    }
-
-    .scholar-container 
-    {
-        flex-direction: column;
     }
 }
 
@@ -234,32 +189,15 @@ a:active
 
     .about-me
     {
-        display: flex; flex-direction: row;
-    /* border-left: 10pt azure;
-    border-right: 10pt azure; */
-    /* display: flex; flex-direction: row;  */
-    /* text-align: center; */
     margin-top: 2vw; margin-bottom: 2vw;
     margin-right: 10px;
     margin-left: 10px;
-    /* font-size: 3vw; */
-    }
-
-    .photo img 
-    {
-        height: 25vw;
     }
 
     .heading-container 
     {
         display: flex; flex-direction: column;
     }
-
-    .scholar-container 
-    {
-        flex-direction: column;
-    }
-
 }
 
 /* Tablet */
@@ -270,32 +208,16 @@ a:active
         font-size: 2vw;
     }
 
-    .photo img 
-    {
-        height: 20vw;
-    }
-
     .about-me
     {
-        display: flex; flex-direction: row;
-    /* border-left: 10pt azure;
-    border-right: 10pt azure; */
-    /* display: flex; flex-direction: row;  */
-    /* text-align: center; */
     margin-top: 2vw; margin-bottom: 2vw;
     margin-right: 10px;
     margin-left: 10px;
-    /* font-size: 3vw; */
     }
 
     .heading-container 
     {
         display: flex; flex-direction:column;
-    }
-
-    .scholar-container 
-    {
-        flex-direction: column;
     }
 }
 
@@ -307,18 +229,8 @@ a:active
         font-size: 1.5vw;
     }
 
-    .photo img 
-    {
-        height: 20vw
-    }
-
     .heading-container 
     {
         display: flex; flex-direction: column;
-    }
-
-    .scholar-container 
-    {
-        flex-direction: column;
     }
 }
