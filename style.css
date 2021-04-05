@@ -156,6 +156,30 @@ hr {
     {
         display: flex; flex-direction: column;
     }
+
+    /* Publications */
+.Publications
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Education */
+.Education
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Internships
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 }
 
 /* Mobile-large */
@@ -177,6 +201,30 @@ hr {
     {
         display: flex; flex-direction: column;
     }
+        /* Publications */
+.Publications
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Education */
+.Education
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Internships
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
 }
 
 /* Intermediate size */
@@ -198,6 +246,29 @@ hr {
     {
         display: flex; flex-direction: column;
     }
+        /* Publications */
+.Publications
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Education */
+.Education
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Internships
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 }
 
 /* Tablet */
@@ -219,6 +290,30 @@ hr {
     {
         display: flex; flex-direction:column;
     }
+        /* Publications */
+.Publications
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Education */
+.Education
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Internships
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
 }
 
 /* Laptop */
