@@ -112,7 +112,7 @@ hr {
 }
 
 /* Talks */
-.talks
+.Talks
 {
     margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
     margin-right: 150px;
@@ -175,6 +175,14 @@ hr {
     margin-left: 10px;
 }
 
+/* Talks */
+.Talks
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 /* Education */
 .Education
 {
@@ -213,6 +221,14 @@ hr {
     }
         /* Publications */
 .Publications
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Talks */
+.Talks
 {
     margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
     margin-right: 10px;
@@ -264,6 +280,14 @@ hr {
     margin-left: 10px;
 }
 
+/* Talks */
+.Talks
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 /* Education */
 .Education
 {
@@ -301,7 +325,16 @@ hr {
         display: flex; flex-direction:column;
     }
         /* Publications */
+
 .Publications
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Talks */
+.Talks
 {
     margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
     margin-right: 10px;
