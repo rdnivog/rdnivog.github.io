@@ -156,6 +156,8 @@ hr {
     body
     {
         font-size: 3vw;
+        margin-right: 10px;
+    margin-left: 10px; */
     }
 
     .about-me
@@ -348,8 +350,8 @@ hr {
 .Education
 {
     margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
-    margin-right: 10px;
-    margin-left: 10px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
 }
 
 .Internships
