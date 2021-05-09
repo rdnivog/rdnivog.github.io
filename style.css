@@ -157,7 +157,7 @@ hr {
     {
         font-size: 3vw;
         margin-right: 10px;
-    margin-left: 10px; */
+    margin-left: 10px;
     }
 
     .about-me
@@ -211,6 +211,9 @@ hr {
     body
     {
         font-size: 3vw;
+        margin-right: 10px;
+        margin-left: 10px;
+    
     }
 
     .about-me
@@ -264,6 +267,9 @@ hr {
     body 
     {
         font-size: 3vw;
+        margin-right: 10px;
+        margin-left: 10px;
+    
     }
 
     .about-me
