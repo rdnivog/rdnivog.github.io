@@ -1,0 +1,324 @@
+/* body */
+body 
+{
+    /* border-left: 10pt #ebd5b3; */
+    /* margin-top: 60px;     */
+    text-align: justify;
+    background-color:ivory; 
+    font-family: 'Special Elite'; 
+    font-size: 2.5vw;
+    padding-bottom: 30px; 
+    /* margin-right: 150px;
+    margin-left: 150px; */
+
+}
+
+/* hyperlinks */
+/* hyperlinks */
+a
+{
+    color: maroon; text-decoration: none; 
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border: 0 none;
+
+  }
+a:hover
+{
+    color:crimson; 
+}
+
+a:active
+{ 
+    color: black;
+}
+
+/* Heading */
+.heading-container
+{
+
+    padding-top: 20px;
+    background-color:ivory; 
+    display: flex; justify-content: space-evenly; flex-direction: column; margin-top: 2vw; margin-bottom: 1vw;
+    position: sticky;    
+    /* position: fixed; Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100; 
+  }
+
+.heading-container h1
+{
+    flex: 1; margin: 0em; padding-bottom: 0.25vw; padding-left: 1vw; border-bottom: 0.15vw solid black;
+}
+
+.heading-items
+{
+    display: flex; flex-direction: row; justify-content: space-evenly; flex: 1; padding-top: 1em; margin-right: 2vw; margin-left: 2vw;
+    
+}
+
+.heading-items a
+{
+    flex: 1; display: inline; margin: auto; text-align: center;
+}
+
+.anchor { padding-top: 120px; }
+
+/* About-me */
+
+.about-me
+{
+    /* border-left: 10pt azure;
+    border-right: 10pt azure; */
+    /* display: flex; flex-direction: row;  */
+    text-align: justify;
+    margin-top: 2vw; margin-bottom: 2vw;
+    /* margin-top: 150px; */
+    /* line-height: 30px; */
+    margin-right: 150px;
+    margin-left: 150px;
+    /* font-size: x-large; */
+    z-index: 1; 
+}
+
+
+/* Publications */
+.scholar-container
+{
+    display: flex; flex-direction: column; margin-right: 150px;
+    margin-left: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+.scholar 
+{
+    flex: 1; margin-left: 2vw; margin-right: 150px;
+    margin-left: 80px;
+}
+
+.Publications
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+/* Education */
+.Education
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+.Internships
+{
+    margin-left: 2vw; margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* Contact */
+.contact
+{
+    border-left: 3pt azure;
+    text-align: center;
+    margin: auto;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+}
+
+/* Captions */
+.caption
+{
+    text-align: center; margin-top: 2vw; margin-bottom: 2vw;
+}
+
+
+/* Width adjustments for different devices */
+/* mobile-Small */
+@media (max-width: 320px) 
+{
+    body
+    {
+        font-size: 3vw;
+    }
+
+    .about-me
+    {
+    
+        display: flex; flex-direction: row;
+            /* border-left: 10pt azure;
+    border-right: 10pt azure; */
+    /* display: flex; flex-direction: row;  */
+    /* text-align: center; */
+    margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* font-size: 3vw; */
+    }
+
+    .photo img 
+    {
+        height: 25vw;
+    }
+
+    .heading-container 
+    {
+        display: flex; flex-direction: column;
+    }
+
+    .scholar-container 
+    {
+        flex-direction: column;
+    }
+}
+
+/* Mobile-large */
+@media (max-width:625px) and (min-width: 321px) 
+{
+    body
+    {
+        font-size: 3vw;
+    }
+
+    .about-me
+    {
+        display: flex; flex-direction: row;
+        /* border-left: 10pt azure;
+    border-right: 10pt azure; */
+    /* display: flex; flex-direction: row;  */
+    /* text-align: center; */
+    margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* font-size: 3vw; */
+    }
+
+    .photo img 
+    {
+        height: 25vw;
+    }
+
+    .heading-container 
+    {
+        display: flex; flex-direction: column;
+    }
+
+    .scholar-container 
+    {
+        flex-direction: column;
+    }
+}
+
+/* Intermediate size */
+@media (max-width: 767px) and (min-width: 626px)
+{
+    body 
+    {
+        font-size: 3vw;
+    }
+
+    .about-me
+    {
+        display: flex; flex-direction: row;
+    /* border-left: 10pt azure;
+    border-right: 10pt azure; */
+    /* display: flex; flex-direction: row;  */
+    /* text-align: center; */
+    margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* font-size: 3vw; */
+    }
+
+    .photo img 
+    {
+        height: 25vw;
+    }
+
+    .heading-container 
+    {
+        display: flex; flex-direction: column;
+    }
+
+    .scholar-container 
+    {
+        flex-direction: column;
+    }
+
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 768px)
+{
+    body 
+    {
+        font-size: 2vw;
+    }
+
+    .photo img 
+    {
+        height: 20vw;
+    }
+
+    .about-me
+    {
+        display: flex; flex-direction: row;
+    /* border-left: 10pt azure;
+    border-right: 10pt azure; */
+    /* display: flex; flex-direction: row;  */
+    /* text-align: center; */
+    margin-top: 2vw; margin-bottom: 2vw;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* font-size: 3vw; */
+    }
+
+    .heading-container 
+    {
+        display: flex; flex-direction:column;
+    }
+
+    .scholar-container 
+    {
+        flex-direction: column;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px)
+{
+    body 
+    {
+        font-size: 1.5vw;
+    }
+
+    .photo img 
+    {
+        height: 20vw
+    }
+
+    .heading-container 
+    {
+        display: flex; flex-direction: column;
+    }
+
+    .scholar-container 
+    {
+        flex-direction: column;
+    }
+}
