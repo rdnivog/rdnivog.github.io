@@ -5,7 +5,7 @@
     --rule: #8a7657;
     --accent: maroon;
     --accent-hover: crimson;
-    --content-width: 46rem;
+    --content-width: 52rem;
 
     /* Shared type scale — every font-size in this file should reference one of these */
     --fs-nav:       clamp(0.85rem, 0.75rem + 0.3vw, 1rem);     /* nav links */
@@ -116,8 +116,8 @@ hr {
     border-bottom: 0.1vw solid var(--accent-hover);
 }
 
-/* Shared section headings (Publications / Talks / Education / Contact) */
-.Publications h3, .Talks h3, .Education h3, .contact h3
+/* Shared section headings (Publications / Talks / Academic Background / Contact) */
+.Publications h3, .Talks h3, .AcademicBackground h3, .contact h3
 {
     font-size: var(--fs-h3);
     letter-spacing: 0.02em;
@@ -153,7 +153,7 @@ hr {
 
 
 /* Publications */
-.Publications, .Talks, .Education, .Internships
+.Publications, .Talks, .AcademicBackground, .Internships
 {
     text-align: left;
     margin: 2rem 0;
@@ -168,9 +168,18 @@ hr {
 
 .Publications li, .Talks li
 {
-    margin-bottom: 0.85em;
     padding-left: 1.1em;
     border-left: 2px solid rgba(138, 118, 87, 0.35);
+}
+
+.Publications li
+{
+    margin-bottom: 0.5em;
+}
+
+.Talks li
+{
+    margin-bottom: 0.85em;
 }
 
 .Publications dl, .Talks dl
@@ -197,19 +206,48 @@ hr {
     margin-top: 0.2em;
 }
 
-/* Education */
+/* Academic Background (Professional Experience + Education) */
 
-.Education li
+.AcademicBackground ul
 {
-    margin-bottom: 0.7em;
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0;
+}
+
+.ab-entry
+{
+    margin-bottom: 1.1em;
     padding-left: 1.1em;
     border-left: 2px solid rgba(138, 118, 87, 0.35);
     line-height: 1.55;
 }
 
-.Education li strong
+.ab-title-row
 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 1.5em;
+}
+
+.ab-title
+{
+    font-weight: bold;
     font-size: var(--fs-lead);
+}
+
+.ab-date
+{
+    font-size: var(--fs-secondary);
+    color: var(--ink-soft);
+    white-space: nowrap;
+}
+
+.ab-org
+{
+    font-size: var(--fs-secondary);
 }
 
 /* Contact */
